@@ -68,3 +68,37 @@ switch (diaSemana) {
     default:
         console.log('Los fines de semana no trabajamos');
 }
+
+// Estructuras Iterativas
+
+// Estructura iterativa For
+
+// for (valor inicial; condición; actualización) {
+//     código a ejecutar mientras se cumpla la condición
+// }
+
+for (i = 0; i < 10; i++) {
+    console.log('En cada iteración i tendra el valor ' + i);
+}
+
+// Estructura iterativa While
+
+// while (condicion) {
+//     Código a ejecutar mientas se cumpla la condición
+// }
+
+let password;
+
+// while (password !== '1234') {
+//     password = prompt('Escriba su contraseña');
+// }
+
+// Estructura iterativa While
+
+// do {
+//     Código a ejecutar mientas se cumpla la condición
+// } while (condicion)
+
+do {
+    password = prompt('Escriba su contraseña');
+} while (password !== '1234');

@@ -92,3 +92,97 @@ console.log(operacion);
 let operacion2 = (12+ 3) * 8;
 
 console.log(operacion2);
+
+// Operadores de asignación 
+
+// =
+
+// Asignación de adición +=
+
+let puntuacion1 = 4;
+let puntuacion2 = 9;
+
+puntuacion1 += puntuacion2 ; // puntuacion1 = puntuacion1 + puntuacion2
+
+// -=  *=  /=  %=
+
+// Operadores de comparación 
+
+// Operador de igualdad ==
+
+let ciudad = 'Cáceres';
+let termino = 'Cáceres';
+
+let hayCoincidencia = ciudad == termino;
+
+console.log(hayCoincidencia);
+
+// Operador de igualdad estricta === (mismo valor y mismo tipo de dato)
+
+let puntuacion3 = 8.4;
+let puntuacion4 = '8.4';
+
+hayCoincidencia = puntuacion3 === puntuacion4; // devolverá false
+
+console.log(hayCoincidencia);
+
+// Operador de desigualdad !=
+
+// Operador de desigualdad estricta !== 
+
+// Operador Mayor que >
+
+let puntuacion5 = 8.4;
+let puntuacion6 = 3;
+
+hayCoincidencia = puntuacion5 > puntuacion6;
+
+console.log(hayCoincidencia);
+
+// Operador Menor que <
+
+// Operador Mayor o igual que >=          
+
+// Operador Menor o igual que <=
+
+// OPERADORES LÓGICOS
+
+// Operador Lógico AND &&
+// Comparar dos expresiones y devuelve true si las dos expresiones son true
+
+let valor1 = 12;
+let valor2 = 14;
+let valor3 = 12;
+
+let resultado2 = valor2 < valor1 && valor1 === valor3;
+
+console.log(resultado2);
+
+
+// Operador Lógico OR ||
+
+let mayorEdad = true;
+
+resultado2 = mayorEdad || valor1 !== valor3;
+
+console.log(resultado2);
+
+// Operador Lógico NOT !
+
+mayorEdad = false;
+
+mayorEdad = !mayorEdad;
+
+console.log(mayorEdad);
+
+// Operador condicional (ternario) *Tiene tres operandos
+
+// expresiónDeCondición ? valor1 : valor2
+
+let estado;
+let edadAlumno = 14;
+
+estado = (edadAlumno >= 18) ? 'Adulto' : 'Menor';
+
+console.log(estado);
+

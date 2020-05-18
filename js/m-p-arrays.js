@@ -116,3 +116,19 @@ marcasSeleccionadas.push('Peugeot','Ferrari');
 
 console.log(marcasSeleccionadas);
 console.log(marcasEuropeas);
+
+// Operadores spread (...) ECMA 2015
+
+let marcasCoreanas = ['KIA','Hyundai'];
+
+marcasAsiaticas.push(...marcasCoreanas);
+console.log(marcasAsiaticas);
+
+// Parámetros rest (...) ECMA 2015
+
+function setCategories(...categories) {
+    return categories;
+}
+
+let shoesCategories = setCategories('running','men','uk');
+console.log(shoesCategories);
